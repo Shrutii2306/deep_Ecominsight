@@ -64,11 +64,11 @@ export default function Sidebar() {
 
     ]
   return (
-    <div className="flex flex-col text-xs justify-items-center justify-around my-10 text-[#3f3f3f]">
+    <div className="flex flex-col text-sm justify-items-center justify-around my-10 text-[#3f3f3f]">
       
             {menuItems.map((item, index) => (
                 <div 
-                className={item.id==activeItem? "bg-slate-100 cursor-pointer bg-slate-100/40 rounded-xl p-3 flex w-[15rem] h-10 align-middle my-1": "opacity-40 cursor-pointer p-2 flex flex-row my-1 w-[15rem] " }
+                className={item.id==activeItem? "bg-slate-100 cursor-pointer bg-slate-100/40 rounded-xl p-3 flex w-[17rem] h-10 align-middle my-1": "opacity-40 cursor-pointer p-2 flex flex-row my-1 w-[17rem] " }
                 key={index}
                 onClick={()=>onChangeItem(item.id)}
                 >

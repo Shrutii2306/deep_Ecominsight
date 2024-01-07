@@ -21,12 +21,12 @@ export default function SchedulePost({item}) {
                 
             </div>
             
-            <div className="font-extrabold text-2xl py-1.5">{item.headtitle}</div>
-            <div className="text-xs text-[#3f3f3f]">
+            <div className="font-extrabold text-3xl py-1.5">{item.headtitle}</div>
+            <div className="text-sm text-[#3f3f3f]">
                 <div className="py-3">{item.body}<br></br>{item.secondPara}</div>
                 
                 <div>
-                    <img src={item.image} className="h-36 my-3"/>
+                    <img src={item.image} className="h-36 w-96 my-4"/>
                 </div>
             </div>
         </div>

@@ -27,8 +27,8 @@ export default function MapPost({item}) {
                 
             </div>
             
-            <div className="font-extrabold text-2xl -my-1">{item.headtitle}</div>
-            <div className="text-xs text-[#3f3f3f]">
+            <div className="font-extrabold text-3xl -my-1">{item.headtitle}</div>
+            <div className="text-sm text-[#3f3f3f]">
                 <div className="py-3">{item.body}</div>
                 <div className="text-[0.66rem] text-gray-400 mb-2">{item.addr1}<br></br>{item.addr2}</div>
             </div>

@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       
-      <div className="container flex justify-between px-20 py-10">
+      <div className="container flex px-20 py-10">
         <Sidebar/>
         <Feed/>
       </div>

@@ -45,7 +45,7 @@ export default function Feed() {
         }
     ]
   return (
-    <div className="px-10 py-5 flex flex-row min-w-[53rem] max-w-[53rem] overflow-x-auto z-10 justify-between ml-3">
+    <div className=" px py-5 flex flex-row min-w-[53rem] max-w-[53rem] overflow-x-auto z-10 justify-between  ml-24">
    
         {feedItems.map((item,index) => (
             <div className="border bg-white max-w-[26rem] min-w-[26rem] h-fit

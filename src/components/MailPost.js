@@ -18,12 +18,12 @@ export default function MailPost({item}) {
     <div className="px-9 py-4">
         <div className="flex flex-col text-[#3f3f3f] py-2">
             <div className="flex justify-between">
-                <div className="float-start text-xl">{item.head}</div>
+                <div className="float-start text-2xl">{item.head}</div>
                 <div className="text-gray-400 text-[0.6rem] float-right">{item.time}</div>
             </div>
             
-            <div className="font-extrabold text-2xl py-1.5">{item.headtitle}</div>
-            <div className="text-xs text-[#3f3f3f]">
+            <div className="font-extrabold text-3xl py-1.5">{item.headtitle}</div>
+            <div className="text-sm text-[#3f3f3f]">
                 <div className="py-3">{item.body}</div>
                 <div className="py-1">{item.secondPara}</div>
                 <div className="py-3">{item.from}</div>
